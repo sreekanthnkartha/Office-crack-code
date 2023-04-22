@@ -3,8 +3,8 @@ title Activate Office 365 ProPlus for FREE - MSGuides.com&cls&echo =============
 :skms
 if %i% GTR 10 goto busy
 if %i% EQU 1 set KMS=kms7.MSGuides.com
-if %i% EQU 2 set KMS=s8.uk.to
-if %i% EQU 3 set KMS=s9.us.to
+if %i% EQU 2 set KMS=e8.us.to
+if %i% EQU 3 set KMS=e9.us.to
 if %i% GTR 3 goto ato
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 :ato
